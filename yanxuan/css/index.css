@@ -1,0 +1,148 @@
+/*@import 'px2rem';
+
+$designWidth : 540;*/
+body {
+  font-size: 0.41481rem;
+  background-color: #f4f4f4; }
+
+.g-row {
+  margin-left: auto;
+  margin-right: auto;
+  width: 16rem;
+  box-sizing: border-box; }
+
+.openapp {
+  width: 100%;
+  height: 2.13333rem;
+  background: #333; }
+  .openapp .g-row {
+    padding-top: 0.2963rem;
+    padding-left: 0.59259rem; }
+  .openapp .closeapp {
+    margin-top: 0.23704rem;
+    margin-right: 0.26667rem;
+    float: left;
+    width: 1.0963rem;
+    height: 1.0963rem;
+    background: url("../img/ico.png") 0 -7.76296rem no-repeat;
+    background-size: 3.55556rem 14.42963rem; }
+  .openapp .brand {
+    float: left; }
+    .openapp .brand .openapp-logo {
+      float: left;
+      width: 1.6rem;
+      height: 1.6rem;
+      display: block;
+      background: url("../img/ico.png") 0 -8.94815rem no-repeat;
+      background-size: 3.55556rem 14.42963rem; }
+    .openapp .brand .cnt {
+      margin-top: 0.14815rem;
+      margin-left: 0.08889rem;
+      float: left;
+      color: #fff;
+      font-size: 0.47407rem;
+      font-family: PingFangSC-Light,helvetica,'Heiti SC'; }
+      .openapp .brand .cnt .brand-txt {
+        margin-bottom: 0.05926rem;
+        font-size: 0.59259rem; }
+  .openapp .openapp-btn {
+    margin-top: 0.17778rem;
+    margin-right: 0.2963rem;
+    float: right;
+    width: 3.05185rem;
+    height: 1.18519rem;
+    line-height: 1.18519rem;
+    border-radius: 0.05926rem;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.53333rem;
+    border: 0.02963rem solid #b4282d;
+    background-color: #b4282d; }
+
+header {
+  height: 1.92593rem;
+  background-color: #fafafa; }
+  header .g-row {
+    padding-left: 0.59259rem;
+    padding-right: 0.2963rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  header .toggle {
+    width: 1.0963rem;
+    height: 1.0963rem;
+    background: url("../img/ico.png") 0 -5.18519rem no-repeat;
+    background-size: 3.55556rem 14.42963rem; }
+  header .logo {
+    width: 3.82222rem;
+    height: 1.18519rem;
+    background: url("../img/ico.png") 0 -3.85185rem no-repeat;
+    background-size: 3.55556rem 14.42963rem; }
+  header .head-right {
+    font-size: 0; }
+    header .head-right .search {
+      margin-right: 0.44444rem;
+      width: 1.42222rem;
+      height: 1.42222rem;
+      display: inline-block;
+      background: url("../img/ico.png") 0 -11.85185rem no-repeat;
+      background-size: 3.55556rem 14.42963rem; }
+    header .head-right .cart {
+      width: 1.42222rem;
+      height: 1.42222rem;
+      display: inline-block;
+      background: url("../img/ico.png") no-repeat;
+      background-size: 3.55556rem 14.42963rem; }
+
+.floor {
+  margin-bottom: 0.59259rem;
+  background-color: #fff; }
+
+.banner {
+  width: 100%;
+  height: 8.88889rem; }
+  .banner img {
+    max-width: 100%; }
+
+.category {
+  width: 100%;
+  height: 3.85185rem; }
+  .category .cate-ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .category .cate-ul .cate-li {
+      width: 1.24444rem;
+      text-align: center; }
+      .category .cate-ul .cate-li a {
+        color: #333;
+        text-decoration: none; }
+      .category .cate-ul .cate-li img {
+        margin-bottom: 0.26667rem;
+        width: 1.24444rem;
+        height: 1.24444rem;
+        display: block; }
+
+footer {
+  padding-top: 40px;
+  height: 180px;
+  text-align: center;
+  background-color: #414141;
+  font-size: 18px;
+  box-sizing: border-box; }
+  footer .down-box .down-btn {
+    width: 130px;
+    line-height: 45px;
+    display: inline-block;
+    border: 1px solid #999;
+    color: #fff;
+    text-decoration: none; }
+  footer .copyright {
+    margin-top: 27px;
+    color: #999; }
+
+/*# sourceMappingURL=index.css.map */

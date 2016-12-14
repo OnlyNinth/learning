@@ -1,0 +1,178 @@
+/*@import 'px2rem';
+
+$designWidth : 540;*/
+
+@import 'px2rem';
+
+$designWidth : 540;
+
+body {
+    font-size: px2rem(14);
+    background-color: #f4f4f4;
+}
+.g-row {
+    margin-left: auto;
+    margin-right: auto;
+    width: px2rem(540);
+    box-sizing: border-box;
+}
+
+.openapp {
+    width: 100%;
+    height: px2rem(72);
+    background: #333;
+    .g-row {
+        padding-top: px2rem(10);
+        padding-left: px2rem(20);
+    }
+    .closeapp {
+        margin-top: px2rem(8);
+        margin-right: px2rem(9);
+        float: left;
+        width: px2rem(37);
+        height: px2rem(37);
+        background: url('../img/ico.png') 0 px2rem(-262) no-repeat;
+        background-size: px2rem(120) px2rem(487);
+    }
+    .brand {
+        float: left;
+        .openapp-logo {
+            float: left;
+            width: px2rem(54);
+            height: px2rem(54);
+            display: block;
+            background: url('../img/ico.png') 0 px2rem(-302) no-repeat;
+            background-size: px2rem(120) px2rem(487);
+        }
+        .cnt {
+            margin-top: px2rem(5);
+            margin-left: px2rem(3);
+            float: left;
+            color: #fff;
+            font-size: px2rem(16);
+            font-family: PingFangSC-Light,helvetica,'Heiti SC';
+            .brand-txt {
+                margin-bottom: px2rem(2);
+                font-size: px2rem(20);
+            }
+        }
+    }
+    .openapp-btn {
+        margin-top: px2rem(6);
+        margin-right: px2rem(10);
+        float: right;
+        width: px2rem(103);
+        height: px2rem(40);
+        line-height: px2rem(40);
+        border-radius: px2rem(2);
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        font-size: px2rem(18);
+        border: px2rem(1) solid #b4282d;
+        background-color: #b4282d;
+    }
+}
+
+header {
+    height: px2rem(65);
+    background-color: #fafafa;
+    .g-row {
+        padding-left: px2rem(20);
+        padding-right: px2rem(10);
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .toggle {
+        width: px2rem(37);
+        height: px2rem(37);
+        background: url('../img/ico.png') 0 px2rem(-175) no-repeat;
+        background-size: px2rem(120) px2rem(487);
+    }
+    .logo {
+        width: px2rem(129);
+        height: px2rem(40);
+        background: url('../img/ico.png') 0 px2rem(-130) no-repeat;
+        background-size: px2rem(120) px2rem(487);
+    }
+    .head-right {
+        font-size: 0;
+        .search {
+            margin-right: px2rem(15);
+            width: px2rem(48);
+            height: px2rem(48);
+            display: inline-block;
+            background: url('../img/ico.png') 0 px2rem(-400) no-repeat;
+            background-size: px2rem(120) px2rem(487);
+        }
+        .cart {
+            width: px2rem(48);
+            height: px2rem(48);
+            display: inline-block;
+            background: url('../img/ico.png') no-repeat;
+            background-size: px2rem(120) px2rem(487);
+        }
+    }
+}
+
+.floor {
+    margin-bottom: px2rem(20);
+    background-color: #fff;
+}
+.banner {
+    width: 100%;
+    height: px2rem(300);
+    img {
+        max-width: 100%;
+    }
+}
+.category {
+    width: 100%;
+    height: px2rem(130);
+    .cate-ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .cate-li {
+            width: px2rem(42);
+            text-align: center;
+            a {
+                color: #333;
+                text-decoration: none;
+            }
+            img {
+                margin-bottom: px2rem(9);
+                width: px2rem(42);
+                height: px2rem(42);
+                display: block;
+            }
+        }
+    }
+}
+
+footer {
+    padding-top: 40px;
+    height: 180px;
+    text-align: center;
+    background-color: #414141;
+    font-size: 18px;
+    box-sizing: border-box;
+    .down-box {
+        .down-btn {
+            width: 130px;
+            line-height: 45px;
+            display: inline-block;
+            border: 1px solid #999;
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+    .copyright {
+        margin-top: 27px;
+        color: #999;
+    }
+}
